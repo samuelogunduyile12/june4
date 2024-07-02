@@ -1,0 +1,65 @@
+*{
+     margin: 0;
+}
+html{
+     --text-color:blue;
+}
+h1{
+     color: red;
+     color: rgb(255, 112, 118);
+     color: #abccde;
+     color: #acd;  
+     width: 600px;
+     padding-inline: 2em;
+     height: 100px;
+     padding-block: 2rem 1.5rem;
+     padding: 20px 0 15px 0;
+     padding-block: 20px 15px;
+     padding-inline: 0;
+     border: 1.2rem solid;
+ 
+     /*background-color: yellow;
+     background-color: rgb(pink, yellow, purple);
+     background-color: #222;
+     color: var(--text-color)*/
+}
+
+section:first-of-type{
+     font-size: 15px;
+     background-image: linear-gradient(45deg, green 40%, blue 40%);
+     background-image: linear-gradient(90deg, violet 35%, crimson 35%, crimson 80%, fuchsia 80%,);
+     background: linear-gradient(to bottom, purple 50%,khaki 50%);
+     background-image: repeating-linear-gradient( to right, blue 12%, green 15%);
+
+
+}
+
+section:nth-of-type(2){
+     background-image: radial-gradient(gray 30%, pink 30%);
+     background-image: radial-gradient(circle, gray 10%, pink 10%);
+     background-image: repeating-linear-gradient(circle, gray 15%,pink 20%);
+}
+
+section:nth-of-type(3){  
+     background-image: conic-gradient(
+          fuchsia 15%,
+          #09cc66 15%,
+          #09cc66 30%,
+          #c7ee99 50%,
+          #c7ee99 65%,
+          tomato 65%,
+          tomato 85%,
+          gold 85%
+     );
+}
+body{
+     width: 70%;
+     background-color: cyan;
+     margin: auto;
+}
+
+section:first-of-type p{
+     font-size: 1.5em;
+     border: 2em solid gold;
+      border: 2rem solid gold;
+}
